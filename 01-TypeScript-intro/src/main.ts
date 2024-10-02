@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 import { name, age, isValid } from './bases/01-types.ts';
 import { lio } from './bases/02-objects.ts';
-import { Pokemon, charmander } from './bases/03-classes.ts';
-
-const lionel = new Pokemon(2, 'lio');
+import { charmander } from './bases/04-injection.ts'
+// import { Pokemon, charmander } from './bases/03-classes.ts';
+// const lionel = new Pokemon(2, 'lio');
 
 
 if (isValid) {
@@ -18,7 +18,7 @@ if (isValid) {
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
-    <h1>Hola soy ${name} y tengo ${age} años ${lio} - ${lionel.name} - ${charmander.id} </h1>
+    <h1>Hola soy ${name} y tengo ${age} años ${lio} - ${charmander.name} </h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
