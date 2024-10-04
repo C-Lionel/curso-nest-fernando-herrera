@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 import { name, age, isValid } from './bases/01-types.ts';
 import { lio } from './bases/02-objects.ts';
-import { charmander } from './bases/05-decorators.ts';
+import { charmander } from './bases/06-decorators2.ts';
+// import { charmander } from './bases/05-decorators.ts';
 // import { charmander } from './bases/04-injection.ts'
 // import { Pokemon, charmander } from './bases/03-classes.ts';
 // const lionel = new Pokemon(2, 'lio');
